@@ -11,7 +11,7 @@ WHT='\e[0;37m' # White
 export CLICOLOR=1
 
 # Pretty prompt
-PS1="\\[$BLU\\]\u\\[$WHT\\]@\\[$CYN\\]\h\\[$WHT\\]:\\[$GRN\\]\W\\[$WHT\\]\$ "
+PS1="\\[$CYN\\]\u\\[$WHT\\]@\\[$GRN\\]\h\\[$WHT\\]:\\[$YLW\\]\w\\[$WHT\\]\$ "
 
 # Manpage colors
 man() {
