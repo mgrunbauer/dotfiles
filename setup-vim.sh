@@ -2,6 +2,9 @@
 
 BUNDLE_DIR=~/.vim/bundle
 
+# Make swp dir
+mkdir -p ~/.vim/.swp
+
 # Install pathogen
 mkdir -p ~/.vim/autoload ${BUNDLE_DIR}
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
