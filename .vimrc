@@ -46,3 +46,7 @@ map <C-n> :NERDTreeToggle<CR>
 " use custom eslint files
 " let g:ale_javascript_eslint_executable = 'path/to/eslint'
 " let g:ale_javascript_eslint_options = '-c path/to/.eslintrc'
+
+" ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_custom_ignore = 'node_modules\|git'
