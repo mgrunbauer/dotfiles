@@ -42,3 +42,7 @@ set directory=$HOME/.vim/.swp//
 " nerdtree stuff
 execute pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
+
+" use custom eslint files
+" let g:ale_javascript_eslint_executable = 'path/to/eslint'
+" let g:ale_javascript_eslint_options = '-c path/to/.eslintrc'
